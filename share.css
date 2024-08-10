@@ -2,7 +2,6 @@
     Auther: Abdelrhman Said
 */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +14,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.ada {
+.social {
     display: grid;
     height: 100%;
     width: 100%;
     place-items: center;
-    background: linear-gradient(315deg, #ffffff, #d7e1ec);
 }
 
 .wrapper {
