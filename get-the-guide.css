@@ -1,0 +1,39 @@
+.get-the-guide {
+    min-height: 200px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-the-guide-button {
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #cf7c0f;
+    min-height: 65px;
+    min-width: 320px;
+    font-size: 20px;
+    transition: all 0.2s ease; /* Плавный переход */
+    &:hover {
+        cursor: pointer;
+        background-color: #575757;
+        min-height: 66.5px;
+        min-width: 322px;
+        border-radius: 20px;
+        font-size: 20.2px;
+        color: black;
+        /*box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.65);*/
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        align-items: center;
+        font-family: "arial";
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+

@@ -1,0 +1,73 @@
+.header {
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    min-height: 20px;
+    text-align: center;
+}
+
+.nav {
+    color: #F1EFEC;
+    min-height: 818px;
+    width: 100%;
+    align-content: center;
+    padding-bottom: 50px;
+    background-image: url('/assets/1.svg');
+    background-size: cover; /* или contain, в зависимости от желаемого эффекта */
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    .title-nav {
+        font-family: Arial;
+        font-size: 50px;
+        font-weight: bold;
+        padding-left: 12vw;
+    }
+
+    .title1-nav {
+        font-size: 16px;
+        margin-top: 2vw;
+        padding-left: 12vw;
+    }
+
+    .button {
+        min-height: 5vh;
+        margin-top: 4vw;
+        font-size: 15px;
+        border-radius: 8px;
+        border: 1px solid transparent; /* Прозрачная граница для предотвращения изменения размера */
+        transition: box-shadow 0.05s ease-in-out; /* Плавный переход для эффекта свечения */
+    }
+
+    .button-left {
+        background-color: #ffffff;
+        margin-left: 12vw;
+        min-width: 16vw;
+        font-weight: bold;
+        &:hover {
+            cursor: pointer;
+        }
+        &:active {
+            box-shadow: 0 0 1px 1px #ffffff;
+            cursor: default;
+        }
+    }
+
+    .button-right {
+        background-color: #b56700;
+        color: white;
+        margin-left: 1.5vw;
+        min-width: 10vw;
+        &:hover {
+            cursor: pointer;
+        }
+        &:active {
+            box-shadow: 0 0 1px 1px #7c490d;
+            cursor: default;
+        }
+    }
+}
+
+
+
+
